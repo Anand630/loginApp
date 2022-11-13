@@ -1,0 +1,26 @@
+.home-container {
+  min-height: 100vh;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  border-radius: 12px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    min-width: 250px;
+  }
+}

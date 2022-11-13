@@ -1,0 +1,12 @@
+button {
+  border: none;
+  padding: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  color: #303150;
+  font-family: Roboto;
+  cursor: pointer;
+  min-width: 80px;
+}
